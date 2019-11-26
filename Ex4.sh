@@ -1,0 +1,15 @@
+#Finding Even or Odd./Ex4.sh
+
+
+echo "Enter a Number:"
+read n1
+1
+
+rem=$(( $n % 2 ))
+
+if [ $rem -eq 0 ]
+then
+	echo "Number is even"
+else
+	echo "Number is odd"
+fi
